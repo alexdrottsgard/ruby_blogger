@@ -1,4 +1,5 @@
 class CommentsController < ApplicationController
+    before_action :require_login, except: [:create]
     def create
         # fail to see params and what data is extractable from the params-hash
         @comment = Comment.new(comment_params)
