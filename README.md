@@ -1,4 +1,5 @@
 # README
+This is a Blog, done for a Rails class
 
 To run this application, you need Ruby and Ruby on Rails installed
 
